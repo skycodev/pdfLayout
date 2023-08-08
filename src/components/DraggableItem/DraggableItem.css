@@ -1,0 +1,42 @@
+.draggable-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    cursor: move;
+    user-select: none;
+    z-index: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #151515;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 5px;
+    
+}
+.draggable-item--text{
+    background-color: rgb(114, 98, 177);
+    cursor: move;
+    user-select: none;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    fill: #ffffff;
+}
+.icon-container{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #ffffff;
+    padding: 2px;
+    background-color: white;
+}
