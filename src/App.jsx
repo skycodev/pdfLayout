@@ -12,12 +12,13 @@ function App () {
       <main className='main-app'>
         <Sidebar />
         <section className='droppable-areas'>
-          {/* <h2>Header Area (Accepts only Image elements)</h2> */}
-          <DroppableArea id='header' type='header' acceptedTypes={['IMAGE']} />
-          {/* <h2>Body Area (Accepts any element type)</h2> */}
-          <DroppableArea id='body' type='body' acceptedTypes={['TEXT', 'IMAGE', 'TABLE']} />
-          {/* <h2>Footer Area (Accepts only Text elements)</h2> */}
-          <DroppableArea id='footer' type='footer' acceptedTypes={['TEXT']} />
+
+          <DroppableArea name='header' type='header' acceptedTypes={['IMAGE']} />
+
+          <DroppableArea name='body' type='body' acceptedTypes={['TEXT', 'IMAGE', 'TABLE']} />
+
+          <DroppableArea name='footer' type='footer' acceptedTypes={['TEXT']} />
+
         </section>
         <ToastContainer />
 
