@@ -12,7 +12,7 @@ const DroppableArea = ({ name, acceptedTypes }) => {
 
     if (!acceptedTypes.includes(item.type)) {
       (item.type !== 'DRAGGABLE_ITEM') &&
-        toast.error(`Only ${acceptedTypes.join(', ')} are accepted`, { position: toast.POSITION.BOTTOM_CENTER, autoClose: 2000 })
+        toast.error(`Only ${acceptedTypes.join(', ')} are accepted`, { position: toast.POSITION.TOP_CENTER, autoClose: 2000 })
       return
     }
 
