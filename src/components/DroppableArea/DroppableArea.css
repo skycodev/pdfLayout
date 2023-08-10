@@ -84,4 +84,10 @@
         height: 100%;
         padding: .5em;
     }
-}
+  } 
+  
+  @media screen and (max-width: 768px) {
+    .droppable-area p {
+        font-size: .8em;
+    }
+  }
