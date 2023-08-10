@@ -17,6 +17,8 @@ Run in development mode
 ```
 npm run dev
 ```
+## App deployed
+https://64d4cebad4bd7c5da9b9aa42--thriving-kulfi-0114e2.netlify.app/
 ## Technologies Used
 
 - **React**: The project is built using React due to its component-based architecture, which enhances code reusability and scalability.
