@@ -4,6 +4,7 @@ import './Sidebar.css'
 function Sidebar () {
   return (
     <section className='sidebar-container'>
+      <div className='sidebar-title'>Elements</div>
       <nav className='sidebar'>
         <div className='item-container'>
           <DraggableItem id='image' type='IMAGE' name='image' isNew />

@@ -1,16 +1,28 @@
 .sidebar-container{
-    flex:1;
-    background: #b7b7b7;
+    width: 500px;
+    padding: 2em;
     transition: all 0.5s ease;
     overflow: hidden;
+    border-left: 1px solid #e6e6e6;
 }
 .sidebar{
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .item-container{
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     padding: 10px;
 }
+.sidebar-title{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #5e5ebd;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-container {
+      flex:none
+    }
+  }
